@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to right, brown, rgb(48,22,8));
+}
+
+ h1{
+     color: white;
+     font-family: sans-serif;
+     border: 1px solid black;
+     margin: 30px;
+     margin-left: 35%;
+     padding-left: 50px;
+     padding-right: 50px;
+ }
+ .header{
+     background-color: red;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 50px;
+     margin-right: 50px;
+     padding-left: 30px;
+     padding-right: 30px;
+     border: 5px solid black;
+     background: linear-gradient(to left, magenta, cyan);
+ }
+ .grid{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     border: 10px solid black;
+     border-radius: 10%;
+     padding: 50px;
+     background: linear-gradient(to right, #00ffcc, #39FF14);
+
+ }
+ .menu{
+     margin-right: 10%;
+ }
+ .item{
+     margin: 1.0rem;
+     position: relative;
+ }
+ .item p{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     margin: color black;
+ }
+ .item:hover p{
+     opacity: 1;
+ }
+ .item:hover img{
+     opacity: 0.33;
+ }
+ .footer{
+     display: flex;
+     justify-content: flex-end;
+ }
+p, h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+ }
+ a:link{
+     color: black;
+ }
+ a:visited{
+     color: blue;
+ }
+
+ .site-description{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
